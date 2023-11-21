@@ -1,0 +1,19 @@
+{
+    "name": "femi/wordpress-dev-task",
+    "description": "plugin that can be used in the existing WordPress setup (the latest WordPress can be used). The customer wants a new overview of all persons of his company. A single person contains the following fields",
+    "type": "project",
+    "license": "GNU GENERAL PUBLIC LICENSE",
+    "autoload": {
+        "psr-4": {
+            "Femi\\WordpressDevTask\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Femi",
+            "email": "94sam.fem@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
