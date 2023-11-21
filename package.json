@@ -1,0 +1,33 @@
+{
+  "name": "wordpress-dev-task",
+  "version": "1.0.0",
+  "description": "When working with us, you will have to implement themes covering all WordPress defaults like posts, pages, archives, comments, etc. But you will also assist our plugin developers in providing templates for specific implementations like custom PostTypes, custom Taxonomies, Widgets, and so on.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/femiyb/wordpress-dev-task.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/femiyb/wordpress-dev-task/issues"
+  },
+  "homepage": "https://github.com/femiyb/wordpress-dev-task#readme",
+  "dependencies": {
+    "@wordpress/blocks": "^12.23.0",
+    "@wordpress/components": "^25.12.0",
+    "@wordpress/scripts": "^26.17.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.3",
+    "@babel/preset-env": "^7.23.3",
+    "@babel/preset-react": "^7.23.3",
+    "babel-loader": "^9.1.3"
+  }
+}
