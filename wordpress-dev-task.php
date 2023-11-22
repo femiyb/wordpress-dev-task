@@ -14,6 +14,9 @@ if (file_exists(plugin_dir_path(__FILE__) . 'vendor/autoload.php')) {
     require_once(plugin_dir_path(__FILE__) . 'vendor/autoload.php');
 }
 
+// Instantiate and initialize your plugin's classes
+$plugin = new WordPressDevTask\PeopleManager();
+$plugin->init();
 
 // Define custom post type 'Persons'
 function register_persons_post_type() {
